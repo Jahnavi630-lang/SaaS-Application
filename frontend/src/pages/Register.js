@@ -38,7 +38,7 @@ if (password.length < 6) {
       try {
 
         await axios.post(
-          "http://localhost:5000/api/auth/register",
+          "https://saas-application-9pg2.onrender.com/api/register",
           {
             name,
             email,
