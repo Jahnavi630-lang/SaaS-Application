@@ -28,7 +28,7 @@ if (!email.includes("@")) {
 
         const response =
           await axios.post(
-            "https://saas-application-9pg2.onrender.com/api/login",
+            "https://saas-application-9pg2.onrender.com/api/auth/login",
             {
               email,
               password
